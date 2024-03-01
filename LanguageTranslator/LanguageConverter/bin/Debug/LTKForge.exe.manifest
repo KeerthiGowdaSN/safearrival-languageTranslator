@@ -241,7 +241,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Lq6W4SwoYniK87+Xielwh9fEDdaAUVUFGYjJ3KqXN8g=</dsig:DigestValue>
+        <dsig:DigestValue>YT2zXYZi7P7zS4ANK+ld1M7lUZhcYAKqsGF3kuuzZY4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -468,6 +468,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>T2B7L+iNe1ORfsMPBS3rA1jpgRqpC6By0ElNVTcSfSo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="publish\setup.exe" size="842144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mAmZlBMX2b2G2fNBgAb76aXBeS0apW55mLCI+s7u/6k=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

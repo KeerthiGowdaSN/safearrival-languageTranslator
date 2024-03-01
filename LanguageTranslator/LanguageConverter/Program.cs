@@ -11,6 +11,7 @@ using System.Resources;
 using static Grpc.Core.Metadata;
 using Google.Protobuf.WellKnownTypes;
 using System.Diagnostics;
+using LanguageConverter;
 
 class Program
 {
@@ -37,10 +38,10 @@ class Program
 
             foreach (var targetLanguage in languageCodes)
             {
-                string outputResourceFile = "C:\\Users\\snkee\\Downloads\\LanguageTranslator\\LanguageConverter\\SharedResource." + targetLanguage.Trim() + ".resx";
+                string outputResourceFile = Path.GetDirectoryName(inputResourceFile) + "\\SharedResource." + targetLanguage.Trim() + ".resx";;
                 if (!File.Exists(outputResourceFile))
                 {
-                    string defaultResxFilePath = "C:\\Users\\snkee\\Downloads\\LanguageTranslator\\LanguageConverter\\Sample\\Resource1.resx";
+                    string defaultResxFilePath = Path.GetDirectoryName(inputResourceFile) + "\\Sample\\Resource1.resx";
                     //copy defaultResxFilePath to outputResourceFile
                     File.Copy(defaultResxFilePath, outputResourceFile);
 

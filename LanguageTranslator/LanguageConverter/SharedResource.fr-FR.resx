@@ -97,43 +97,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Dist_Logs_Menu__TabSisWriteBack">
-    <value>إعادة كتابة SIS</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_AbsenceReasonToBeDeleted">
+    <value>Motif(s) d'absence à supprimer</value>
   </data>
-  <data name="Dist_Logs__Menu_ImgAltBack">
-    <value>خلف</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_BtnAbsenceReasonReported">
+    <value>Le motif d'absence a été utilisé dans les absences signalées, pour supprimer le motif, veuillez le remplacer en sélectionnant un autre motif ci-dessous.</value>
   </data>
-  <data name="Dist_Logs__Menu_ImgTitleBack">
-    <value>خلف</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_BtnAddNewReason">
+    <value>Ajouter une nouvelle raison</value>
   </data>
-  <data name="Dist_Logs__Menu_Sis_TabWriteBackSchedule">
-    <value>جدول إعادة كتابة SIS</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_BtnCancel">
+    <value>ANNULER</value>
   </data>
-  <data name="Dist_Logs__Menu_TabAttendanceFile">
-    <value>ملف الحضور</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_BtnClose">
+    <value>Fermer</value>
   </data>
-  <data name="Dist_NotifyProcessLog__Search_BtnCancel">
-    <value>يلغي</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_BtnContinue">
+    <value>CONTINUER</value>
   </data>
-  <data name="Dist_NotifyProcessLog__Search_BtnReset">
-    <value>إعادة ضبط</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_BtnOK">
+    <value>D'ACCORD</value>
   </data>
-  <data name="Dist_NotifyProcessLog__Search_BtnSearch">
-    <value>يبحث</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_Confirm">
+    <value>Confirmer</value>
   </data>
-  <data name="Dist_NotifyProcessLog__Search_BtnSelect">
-    <value>يختار</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_DivFullDayConsecutiveDays">
+    <value>Journées consécutives à la journée :</value>
   </data>
-  <data name="Dist_NotifyProcessLog__Search_DdlSchool">
-    <value>مدرسة</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_DivGuardiansRecommendation">
+    <value>Pour faciliter l'écoute de la liste de choix sur le système téléphonique, nous recommandons de ne pas utiliser plus de 9 motifs d'absence.</value>
   </data>
-  <data name="Dist_NotifyProcessLog__Search_DdlStatus">
-    <value>حالة</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_DivMaxConsecutiveDaysAllowed">
+    <value>Max. jours consécutifs autorisés :</value>
   </data>
-  <data name="Dist_NotifyProcessLog__Search_DdlValAll">
-    <value>الجميع</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_DivMaxCumulativeDaysAllowed">
+    <value>Max. jours cumulés autorisés :</value>
   </data>
-  <data name="Dist_NotifyProcessLog__Search_DdlValFailed">
-    <value>فشل</value>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_DivNoReasonForReplacement">
+    <value>Aucune raison de remplacement.</value>
+  </data>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_DivReplaceDeletingReason">
+    <value>Remplacez le motif de suppression par ce qui suit.</value>
+  </data>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_H4Mapping">
+    <value>Cartographie</value>
+  </data>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_H4Warning">
+    <value>Avertissement</value>
+  </data>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit_ReasonCannotBeDeleted">
+    <value>Le motif &lt;span id="exDelReason"&gt;&lt;/span&gt; ne peut pas être supprimé car il est désigné pour remplacer un autre motif.</value>
+  </data>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit__AbsenceReasons">
+    <value>MOTIFS D'ABSENCE</value>
+  </data>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit__AbsenceReasonToBeDeleted">
+    <value>Le motif d'absence à supprimer</value>
+  </data>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit__AbsenceTypes">
+    <value>TYPES D'ABSENCES</value>
+  </data>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit__Error">
+    <value>Erreur</value>
+  </data>
+  <data name="Dist_AbsenceOptionSetting2__AbsenceOptionEdit__ReasonCannotBeDeleted">
+    <value>Le motif ne peut pas être supprimé car il est désigné pour remplacer un autre motif.</value>
+  </data>
+  <data name="Testing">
+    <value>Exigences en matière de format de fichier : fichier CSV avec la date (aaaa/mm/jj), le type d'événement (doit être l'un des suivants : jour férié, jour d'examen ou en session), description.</value>
   </data>
 </root>
